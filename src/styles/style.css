@@ -1,1 +1,156 @@
 /* Escreva seu código aqui */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Shadows+Into+Light&family=Shizuru&display=swap');
+body{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Caveat Brush';
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Shizuru';
+    font-weight: 600;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.telaDoJogador{
+    width: 50vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 2px solid purple;
+}
+
+.telaDoBot{
+    width: 50vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.caixaNome{
+    font-family: 'Shadows Into Light';
+    border-bottom: 1px solid black;
+    padding: 10px 20px 0px 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.caixaPontos{
+    font-family: 'Caveat Brush';
+    font-size: 22px;
+    border-bottom: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    font-weight: 300;
+}
+
+img{
+    width: 100px;
+    height: 65px;
+}
+
+.tesouraJogador{
+    width: 70px;
+    height: 65px;
+}
+
+.maos{
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10%;
+    margin: 15px;
+    font-family: 'Caveat Brush';
+}
+
+.maos:hover{
+    cursor: pointer;
+    background-color: rgb(247, 151, 226);
+}
+
+.telaDoBot{
+    width: 50vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.model--container{
+    height: 100vh;
+    width: 100vw;
+    background-color: 0,0,0, .5;
+    position: fixed;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model{
+    width: 50%;
+    min-width: 200px;
+    background-color: rgb(231, 25, 231);
+    padding: 40px;
+    border: 3px solid black;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.versus{
+    font-size: 35px;
+}
+
+.maoBot{
+    margin-left: 30px;
+}
+
+.vencedorInfo{
+    font-size: 27px;
+}
+
+.btnInfo{
+    width: 65px;
+    font-size: 24px;
+    position: relative;
+    right: 15px;
+}
+
+.regras{
+    margin: 10px;
+}
+
+button{
+    margin: 10px;
+    border-radius: 10%;
+    background-color: rgb(221, 4, 221);
+    font-family: 'Caveat Brush';
+}
+
+.tituloRegras{
+    font-size: 24px;
+}
+
+.btnJogada{
+    font-size: 20px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.boxMaos{
+    display: flex;
+    align-items: flex-end;
+}
