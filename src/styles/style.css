@@ -21,7 +21,7 @@ h1{
 
 .telaDoJogador{
     width: 50vw;
-    height: 100vh;
+    height: 94vh;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
@@ -32,8 +32,8 @@ h1{
 
 .telaDoBot{
     width: 50vw;
-    height: 100vh;
-    background-color: antiquewhite;
+    height: 94vh;
+    background-color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,12 +77,6 @@ img{
 .maos:hover{
     cursor: pointer;
     background-color: rgb(247, 151, 226);
-}
-
-.telaDoBot{
-    width: 50vw;
-    height: 100vh;
-    background-color: aqua;
 }
 
 .model--container{
